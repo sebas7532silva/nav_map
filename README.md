@@ -1,12 +1,50 @@
-# React + Vite
+# Mapa de Navegación - Proceso de Inscripción
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web interactiva desarrollada con React y Bootstrap que muestra un **mapa de navegación** estructurado en tarjetas, diseñado para visualizar de forma clara y escalable el proceso de inscripción académica.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
 
-## Expanding the ESLint configuration
+Puedes ver el proyecto desplegado en GitHub Pages:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[https://sebas7532silva.github.io/nav_map/](https://sebas7532silva.github.io/nav_map/)
+
+---
+
+## Descripción
+
+La aplicación representa un árbol de navegación que detalla los pasos y funcionalidades dentro del proceso de inscripción en un sistema académico. Cada nodo es una tarjeta interactiva que puede expandirse para mostrar niveles adicionales de detalle. Esto es parte de la materia de UI/UX de la Maestría en Inteligencia Artificial de parte del equipo 18. 
+
+El diseño es:
+
+- **Responsivo**: adapta el layout a varios tamaños de pantalla.
+- **Interactivo**: los nodos con hijos se pueden expandir/colapsar al hacer click.
+- **Visualmente atractivo**: con tarjetas con sombras, colores diferenciados y flechas indicativas para guiar la navegación.
+
+---
+
+## Estructura del mapa
+
+El mapa está basado en un arreglo JSON llamado `sitemap` que contiene los nodos con título y posibles hijos anidados. Las principales secciones incluyen:
+
+1. **Mi Panel de Inscripción**
+2. **Confirmar mi Horario y Pago**
+3. **Finalizar Pago y Obtener Documentos**
+4. **Consultas posteriores y soporte**
+5. **Mi Perfil / Acceso**
+
+Cada una de estas tiene subsecciones que describen funcionalidades y opciones dentro del proceso.
+
+---
+
+## Tecnologías usadas
+
+- **React** (Funcional, hooks, componentes)
+- **Bootstrap 5** para diseño y responsividad
+- **CSS personalizado** para estilos específicos (Sitemap.css)
+- **Vite** como bundler y servidor de desarrollo
+- **GitHub Pages** para despliegue estático
+
+---
+
