@@ -1,0 +1,17 @@
+.tree-node {
+  position: relative;
+}
+
+.child-arrow-container {
+  position: relative;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #007bff;
+  margin: 0 auto 10px auto;
+}
+
